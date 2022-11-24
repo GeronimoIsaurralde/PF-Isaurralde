@@ -166,7 +166,13 @@ input[type=submit]:hover {
   gap: 10px;
   background-color: #2195f300;
   padding: 10px;
-  grid-template-areas: 'contenido1 contenido1 contenido1' 'contenido2 contenido2 contenido2' 'contenido3 contenido3 contenido3' 'none none none' 'none none none' 'foto_rebenque contenido4 contenido4' 'foto_rebenque contenido4 contenido4'; }
+  grid-template-areas: 'contenido1 contenido1 contenido1'
+ 'contenido2 contenido2 contenido2'
+ 'contenido3 contenido3 contenido3'
+ 'none none none'
+ 'none none none'
+ 'foto_rebenque contenido4 contenido4'
+ 'foto_rebenque contenido4 contenido4'; }
 
 .grid-container-index > div {
   color: #d4d4d4;
@@ -203,7 +209,9 @@ input[type=submit]:hover {
   gap: 30px;
   left: 25px;
   padding: 10px;
-  grid-template-areas: 'lorem1 lorem2 lorem3' 'lorem4 lorem5 lorem6' 'lorem7 lorem8 lorem9'; }
+  grid-template-areas: 'lorem1 lorem2 lorem3'
+ 'lorem4 lorem5 lorem6'
+ 'lorem7 lorem8 lorem9'; }
 
 .lorem1 {
   grid-area: lorem1; }
@@ -242,7 +250,11 @@ input[type=submit]:hover {
   .grid-container-nosotros {
     display: grid;
     grid-template-columns: auto auto;
-    grid-template-areas: 'lorem1 lorem2' 'lorem3 lorem4' 'lorem5 lorem6' 'lorem7 lorem8' 'lorem9 lorem9';
+    grid-template-areas: 'lorem1 lorem2'
+ 'lorem3 lorem4'
+ 'lorem5 lorem6'
+ 'lorem7 lorem8'
+ 'lorem9 lorem9';
     padding: 10px; }
   .div-nosotros {
     height: 150vh; } }
@@ -251,7 +263,15 @@ input[type=submit]:hover {
   .grid-container-nosotros {
     display: grid;
     grid-template-columns: auto;
-    grid-template-areas: 'lorem1' 'lorem2' 'lorem3' 'lorem4' 'lorem5' 'lorem6' 'lorem7' 'lorem8' 'lorem9';
+    grid-template-areas: 'lorem1'
+ 'lorem2'
+ 'lorem3'
+ 'lorem4'
+ 'lorem5'
+ 'lorem6'
+ 'lorem7'
+ 'lorem8'
+ 'lorem9';
     padding: 10px; }
   .div-nosotros {
     height: 270vh; } }
@@ -260,7 +280,12 @@ input[type=submit]:hover {
 .grid-container-propiedades {
   display: grid;
   grid-template-columns: auto;
-  grid-template-areas: 'foto1' 'foto2' 'foto3' 'foto4' 'foto5' 'foto6';
+  grid-template-areas: 'foto1'
+ 'foto2'
+ 'foto3'
+ 'foto4'
+ 'foto5'
+ 'foto6';
   gap: 15px;
   align-content: stretch; }
 
@@ -297,7 +322,10 @@ input[type=submit]:hover {
   .grid-container-propiedades {
     display: grid;
     grid-template-columns: auto;
-    grid-template-areas: 'foto1 foto1 foto4 foto4' 'foto2 foto6 foto6 foto6' 'foto5 foto5 foto3 foto3' 'foto5 foto5 foto3 foto3';
+    grid-template-areas: 'foto1 foto1 foto4 foto4'
+ 'foto2 foto6 foto6 foto6'
+ 'foto5 foto5 foto3 foto3'
+ 'foto5 foto5 foto3 foto3';
     gap: 15px;
     align-content: stretch; }
   .background-image-propiedades {
@@ -354,3 +382,6 @@ input[type=submit]:hover {
     height: 100vh;
     margin-left: 100px;
     margin-top: 250px; } }
+
+
+    
