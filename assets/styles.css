@@ -166,13 +166,14 @@ input[type=submit]:hover {
   gap: 10px;
   background-color: #2195f300;
   padding: 10px;
-  grid-template-areas: 'contenido1 contenido1 contenido1'
- 'contenido2 contenido2 contenido2'
- 'contenido3 contenido3 contenido3'
- 'none none none'
- 'none none none'
- 'foto_rebenque contenido4 contenido4'
- 'foto_rebenque contenido4 contenido4'; }
+  grid-template-areas: 
+  'contenido1 contenido1 contenido1'
+  'contenido2 contenido2 contenido2'
+  'contenido3 contenido3 contenido3'
+  'none none none'
+  'none none none'
+  'foto_rebenque contenido4 contenido4'
+  'foto_rebenque contenido4 contenido4'; }
 
 .grid-container-index > div {
   color: #d4d4d4;
@@ -201,6 +202,40 @@ input[type=submit]:hover {
   height: 450px;
   width: 700px; }
 
+
+  @media only screen and (max-width: 800px) {
+    .grid-container-index {
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-template-areas: 
+      'contenido1'
+      'contenido2'
+      'contenido2'
+      'contenido3'
+      'contenido3'
+      'contenido3'
+      'foto_rebenque'
+      'foto_rebenque'
+      'contenido4'
+      'contenido4';
+      padding: 10px; }
+.contenido1 {
+  width: 50vh;
+}
+.contenido2 {
+  width: 50vh;
+}
+.contenido3 {
+  width: 50vh;
+}
+.contenido4 {
+  width: 50vh;
+}
+.foto_rebenque {
+  height: 300px;
+  width: 470px; }
+}
+
 /* GRID - NOSOTROS */
 .grid-container-nosotros {
   display: grid;
@@ -210,8 +245,8 @@ input[type=submit]:hover {
   left: 25px;
   padding: 10px;
   grid-template-areas: 'lorem1 lorem2 lorem3'
- 'lorem4 lorem5 lorem6'
- 'lorem7 lorem8 lorem9'; }
+  'lorem4 lorem5 lorem6'
+  'lorem7 lorem8 lorem9'; }
 
 .lorem1 {
   grid-area: lorem1; }
@@ -382,6 +417,3 @@ input[type=submit]:hover {
     height: 100vh;
     margin-left: 100px;
     margin-top: 250px; } }
-
-
-    
