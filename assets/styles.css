@@ -166,14 +166,7 @@ input[type=submit]:hover {
   gap: 10px;
   background-color: #2195f300;
   padding: 10px;
-  grid-template-areas: 
-  'contenido1 contenido1 contenido1'
-  'contenido2 contenido2 contenido2'
-  'contenido3 contenido3 contenido3'
-  'none none none'
-  'none none none'
-  'foto_rebenque contenido4 contenido4'
-  'foto_rebenque contenido4 contenido4'; }
+  grid-template-areas: 'contenido1 contenido1 contenido1' 'contenido2 contenido2 contenido2' 'contenido3 contenido3 contenido3' 'none none none' 'none none none' 'foto_rebenque contenido4 contenido4' 'foto_rebenque contenido4 contenido4'; }
 
 .grid-container-index > div {
   color: #d4d4d4;
@@ -202,39 +195,23 @@ input[type=submit]:hover {
   height: 450px;
   width: 700px; }
 
-
-  @media only screen and (max-width: 800px) {
-    .grid-container-index {
-      display: grid;
-      grid-template-columns: auto auto;
-      grid-template-areas: 
-      'contenido1'
-      'contenido2'
-      'contenido2'
-      'contenido3'
-      'contenido3'
-      'contenido3'
-      'foto_rebenque'
-      'foto_rebenque'
-      'contenido4'
-      'contenido4';
-      padding: 10px; }
-.contenido1 {
-  width: 50vh;
-}
-.contenido2 {
-  width: 50vh;
-}
-.contenido3 {
-  width: 50vh;
-}
-.contenido4 {
-  width: 50vh;
-}
-.foto_rebenque {
-  height: 300px;
-  width: 470px; }
-}
+@media only screen and (max-width: 800px) {
+  .grid-container-index {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-areas: 'contenido1' 'contenido2' 'contenido2' 'contenido3' 'contenido3' 'contenido3' 'foto_rebenque' 'foto_rebenque' 'contenido4' 'contenido4';
+    padding: 10px; }
+  .contenido1 {
+    width: 50vh; }
+  .contenido2 {
+    width: 50vh; }
+  .contenido3 {
+    width: 50vh; }
+  .contenido4 {
+    width: 50vh; }
+  .foto_rebenque {
+    height: 300px;
+    width: 470px; } }
 
 /* GRID - NOSOTROS */
 .grid-container-nosotros {
@@ -244,9 +221,7 @@ input[type=submit]:hover {
   gap: 30px;
   left: 25px;
   padding: 10px;
-  grid-template-areas: 'lorem1 lorem2 lorem3'
-  'lorem4 lorem5 lorem6'
-  'lorem7 lorem8 lorem9'; }
+  grid-template-areas: 'lorem1 lorem2 lorem3' 'lorem4 lorem5 lorem6' 'lorem7 lorem8 lorem9'; }
 
 .lorem1 {
   grid-area: lorem1; }
@@ -285,11 +260,7 @@ input[type=submit]:hover {
   .grid-container-nosotros {
     display: grid;
     grid-template-columns: auto auto;
-    grid-template-areas: 'lorem1 lorem2'
-    'lorem3 lorem4'
-    'lorem5 lorem6'
-    'lorem7 lorem8'
-    'lorem9 lorem9';
+    grid-template-areas: 'lorem1 lorem2' 'lorem3 lorem4' 'lorem5 lorem6' 'lorem7 lorem8' 'lorem9 lorem9';
     padding: 10px; }
   .div-nosotros {
     height: 200vh; } }
@@ -298,15 +269,7 @@ input[type=submit]:hover {
   .grid-container-nosotros {
     display: grid;
     grid-template-columns: auto;
-    grid-template-areas: 'lorem1'
-    'lorem2'
-    'lorem3'
-    'lorem4'
-    'lorem5'
-    'lorem6'
-    'lorem7'
-    'lorem8'
-    'lorem9';
+    grid-template-areas: 'lorem1' 'lorem2' 'lorem3' 'lorem4' 'lorem5' 'lorem6' 'lorem7' 'lorem8' 'lorem9';
     padding: 10px; }
   .div-nosotros {
     height: 300vh; } }
@@ -315,12 +278,7 @@ input[type=submit]:hover {
 .grid-container-propiedades {
   display: grid;
   grid-template-columns: auto;
-  grid-template-areas: 'foto1'
- 'foto2'
- 'foto3'
- 'foto4'
- 'foto5'
- 'foto6';
+  grid-template-areas: 'foto1' 'foto2' 'foto3' 'foto4' 'foto5' 'foto6';
   gap: 15px;
   align-content: stretch; }
 
@@ -357,18 +315,14 @@ input[type=submit]:hover {
   .grid-container-propiedades {
     display: grid;
     grid-template-columns: auto;
-    grid-template-areas: 
-    'foto1 foto1 foto4 foto4'
-    'foto2 foto6 foto6 foto6'
-    'foto5 foto5 foto3 foto3'
-    'foto5 foto5 foto3 foto3';
+    grid-template-areas: 'foto1 foto1 foto4 foto4' 'foto2 foto6 foto6 foto6' 'foto5 foto5 foto3 foto3' 'foto5 foto5 foto3 foto3';
     gap: 15px;
     align-content: stretch; }
   .background-image-propiedades {
     height: 360vh; } }
-  .div_propiedades {
-    height: 360vh;
-  }
+
+.div_propiedades {
+  height: 360vh; }
 
 /* ANIMACION EN TUINMUEBLE */
 @media only screen and (max-width: 900px) {
@@ -420,17 +374,17 @@ input[type=submit]:hover {
     height: 100vh;
     margin-left: 100px;
     margin-top: 250px; } }
-  
+
 .div-contactos {
   text-align: center;
   height: 100vh;
   margin-left: 200px;
   margin-top: 50px;
-  margin-right: 300px; 
-  height: 150vh;}
+  margin-right: 300px;
+  height: 150vh; }
 
 @media only screen and (max-width: 800px) {
-    .div-contactos {
+  .div-contactos {
     margin-left: 150px;
     margin-top: 200px;
-    height: 80vh;} }
+    height: 80vh; } }
